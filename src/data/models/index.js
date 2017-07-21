@@ -1,9 +1,9 @@
 var connection = require('./connection');
 var User = require('./User');
-var UserLogin = ('./UserLogin');
-var Scope = ('./Scope');
-var Snippet = ('./Snippet');
-var Preset = ('./Preset');
+var UserLogin = require('./UserLogin');
+var Scope = require('./Scope');
+var Snippet = require('./Snippet');
+var Preset = require('./Preset');
 
 // Accounts
 User.hasMany(UserLogin, {
